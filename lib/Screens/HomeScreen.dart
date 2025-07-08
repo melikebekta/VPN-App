@@ -336,7 +336,7 @@ class VPNHomePage extends StatelessWidget {
                         ),
                         Obx(
                           () => Text(
-                            '${controller.uploadSpeed.value} MB',
+                            '${controller.downloadSpeed.value} MB',
                             style: TextStyle(
                               color: SpecialColors.textColorDarkGray,
                               fontFamily: 'Gilroy',
